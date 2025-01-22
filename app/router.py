@@ -1,5 +1,5 @@
-# from app.api.v1.auth.admin import router as admin_router
+from app.v1.langchain.chat_route import router as chat_router
 
 routers = {
-    # "admin": admin_router,
+    "chat": chat_router,
 }

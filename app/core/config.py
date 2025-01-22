@@ -34,6 +34,8 @@ class Settings(BaseSettings):
     MINIMUM_PASSWORD_LENGTH: int = 8
     PASSWORD_RESET_TOKEN_EXPIRE_MINUTES: int = 60
 
+    GROQ_API_KEY: str
+
     class Config:
         env_file = ".env"
         case_sensitive = True
